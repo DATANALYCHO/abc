@@ -1,11 +1,24 @@
 # 환경 변수
 .env
 .env.*
+!.env.example
 
 # 로컬 가상환경
 rag2/
+.venv/
+venv/
 
 # Python / Jupyter
 __pycache__/
 *.py[cod]
+*$py.class
+.Python
 .ipynb_checkpoints/
+
+.streamlit/secrets.toml
+.idea/
+.vscode/
+*.egg-info/
+.DS_Store
+Thumbs.db
+*.log
